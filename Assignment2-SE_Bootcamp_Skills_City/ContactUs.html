@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/c60d486b1e.js" crossorigin="anonymous"></script>
+        <title>Zero Art - Contact Us</title>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 40px; /* Adjusted padding for spacing */
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .column {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #02d6fc;
+            color: rgb(2, 2, 2);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .social-icon {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+        </style>
+    </head>
+    <body>
+        <header class="banner">
+            <img src="images/images-banners-for-pages/The Nucleus Collection Banner 1500.gif" alt="Banner Image">
+        </header>
+        <nav class="tabs">
+            <ul>
+                <li>
+                    <a href="WhoWeAre.html">Who We Are</a>
+                </li>
+                <li>
+                    <a href="WhatWeDo.html">What We Do</a>
+                </li>
+                <li>
+                    <a href="Portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="ContactUs.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="ExhibitionDates.html">Exhibition Dates</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <div class="column">
+            <p>If you believe you have what it takes to showcase your art with Zero Art, we'd love to hear from you! Send us a quick message using the form above, where you will receive instructions by email on where to submit your artwork. We look forward to discovering new talents and unique perspectives.</p>
+        </div>
+        <div class="container">
+            <!-- Content specific to ContactUs.html -->
+            <div class="column">
+                <h2>Contact Form</h2>
+            </div>
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                ></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <footer style="background-color: #02d6fc; color: rgb(2, 2, 2); padding: 28px;">
+            <!-- Placeholders for social media links -->
+            <a
+                href="https://twitter.com/zeroartcuration"
+                target="_blank"
+                class="social-icon"
+                style="font-size: 24px; margin-right: 15px;"
+            >
+                <i class="fab fa-twitter"></i>
+                Twitter
+            </a>
+            <a
+                href="https://www.instagram.com/zeroartcuration/"
+                target="_blank"
+                class="social-icon"
+                style="font-size: 24px; margin-right: 15px;"
+            >
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+            <p style="font-size: 20px; margin-top: 20px;">&copy; 2024 Zero Art Curation. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

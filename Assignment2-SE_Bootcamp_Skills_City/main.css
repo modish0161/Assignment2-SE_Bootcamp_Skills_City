@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+.banner {
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tabs {
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tabs li {
+    flex: 1;
+    text-align: center;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #ffcc00;
+    display: block;
+    padding: 15px; /* Adjusted padding for better touch on smaller screens */
+    border-bottom: 2px solid #ffcc00;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tabs a:hover {
+    color: #00d9ff;
+    border-bottom: 2px solid #ff9900;
+}
+
+header {
+    background-color: #000000;
+    padding: 80px;
+    text-align: center;
+    color: rgb(255, 145, 0);
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.grid-item h3.collection-title {
+    color: limegreen; /* Add this line to set color to lime green */
+}
+
+.intro-paragraph {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #66ccff;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a 3D effect */
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Adjusted max-height for better responsiveness */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Contact form styles */
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Set a fixed width for the form */
+    margin: 20px auto;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 42px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for a 3D effect */
+}
+
+button:hover {
+    background-color: #333; /* Darken the background on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #ffcc00;
+}
+
+@media only screen and (max-width: 768px) {
+    .tabs a {
+        padding: 10px;
+    }
+  
+    .intro-paragraph {
+        font-size: 16px;
+    }
+
+    .column {
+        padding: 10px;
+    }
+}
